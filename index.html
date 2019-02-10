@@ -2,23 +2,27 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Jiashu Han</title>
-        <style>
-        body {
-            font-family: sans-serif;
-            background-color: rgb(24, 91, 163);
-            margin-right: 500px;
-            margin-left: 100px;
-        }
-        </style>
+        <title>Jiashu Han's webpage</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
         <h1>Jiashu Han</h1>
         <img src="images/me.jpg" width="200" alt="Picture of me"><br>
-        <p>Welcome to my personal website. I'm a fourth year undergraduate student at UC Berkeley.</p>
+        <p>Welcome to my personal website. I'm a fourth year undergraduate student at UC Berkeley. This site is still under development.</p>
         <a href="about.html">About me</a><br>
+        <a href="">Research</a><br>
+        <!--<a href="research.html">Research</a><br>-->
         <a href="CV.pdf">CV</a><br>
         <a href="contact.html">Contact</a>
     </body>
+    <p id="date"></p>
+    <script>
+        n =  new Date();
+        y = n.getFullYear();
+        m = n.getMonth() + 1;
+        d = n.getDate();
+        document.getElementById("date").innerHTML = "Last updated: " + m + "/" + d + "/" + y;
+        document.getElementById("date").innerHTML = "Last updated: " + 2 + "/" + 9 + "/" + 2019;
+    </script>
     <!-- for revamping the website with JS in the future, see: https://getbootstrap.com -->
 </html>
