@@ -1,19 +1,26 @@
 <!DOCTYPE html>
 <html>
+    <div class="bg"></div>
     <head>
         <meta charset="utf-8">
-        <title>Jiashu Han's webpage</title>
+        <title>Jiashu Han</title>
         <link rel="stylesheet" type="text/css" href="style.css">
+        <script type="text/javascript" src="http://latex.codecogs.com/latexit.js"></script>
     </head>
-    <body>
+
+    <div class="topnav">
         <h1>Jiashu Han</h1>
-        <img src="images/me.jpg" width="200" alt="Picture of me"><br>
-        <p>Welcome to my personal website. I'm a fourth year undergraduate student at UC Berkeley. This site is still under development.</p>
-        <a href="about.html">About me</a><br>
-        <a href="">Research</a><br>
-        <!--<a href="research.html">Research</a><br>-->
-        <a href="CV.pdf">CV</a><br>
+        <a class="active" href="index.html">Home</a>
+        <a href="research.html">Physics</a>
+        <a href="cv.html">CV</a>
         <a href="contact.html">Contact</a>
+    </div>
+
+    <body>
+        <!--<img src="images/me.jpg" width="200" alt="Picture of me"><br>-->
+        <p>I'm a first-year physics graduate student at UC San Diego with interests in cosmology and particle physics.</p>
+
+        <p>I was born and raised in Wuhan, China. I have been studying in the U.S. since 2011. During the past eight years, I spent my time in Alabama, Minnesota, and California. Outside of physics, I like to explore nature and capture the interesting moments with my camera. </p>
     </body>
     <p id="date"></p>
     <script>
@@ -22,7 +29,7 @@
         m = n.getMonth() + 1;
         d = n.getDate();
         document.getElementById("date").innerHTML = "Last updated: " + m + "/" + d + "/" + y;
-        document.getElementById("date").innerHTML = "Last updated: " + 2 + "/" + 9 + "/" + 2019;
+        document.getElementById("date").innerHTML = "Last updated: " + 12 + "/" + 21 + "/" + 2019;
     </script>
-    <!-- for revamping the website with JS in the future, see: https://getbootstrap.com -->
+    <!-- for revamping the website with JS in the future, see: https://getbootstrap.com and https://html5up.net -->
 </html>
