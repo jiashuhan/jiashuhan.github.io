@@ -12,12 +12,17 @@ body {
     margin-left: 100px;
     margin-bottom: 100px;
     line-height: 15pt;
+    height: 100%;
+}
+
+html {
+    height: 100%;
 }
 
 .bg {
   /* background image */
   background-image: url("images/6-8-galactic-center-enhanced.jpg");
-  height: 100%; 
+  height: 25%; 
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
