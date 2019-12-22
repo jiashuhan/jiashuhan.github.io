@@ -7,9 +7,9 @@ body {
     background-size: 50%;
     /*background-position: top;*/
     margin: 0;
-    padding: 0pt;
-    margin-right: 500px;
-    margin-left: 100px;
+    padding-bottom: 300pt;
+    margin-right: 200px;
+    margin-left: 200px;
     margin-bottom: 100px;
     line-height: 15pt;
     height: 100%;
@@ -22,7 +22,7 @@ html {
 .bg {
   /* background image */
   background-image: url("images/6-8-galactic-center-enhanced.jpg");
-  height: 25%; 
+  height: 30%; 
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
