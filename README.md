@@ -1,1 +1,1 @@
-My personal website, currently in development.
+Personal website
