@@ -21,7 +21,7 @@ html {
 
 .bg {
   /* background image */
-  background-image: url("images/6-8-galactic-center-enhanced.jpg");
+  background-image: url("../../images/6-8-galactic-center-enhanced.jpg");
   height: 30%; 
   /* Center and scale the image nicely */
   background-position: center;
