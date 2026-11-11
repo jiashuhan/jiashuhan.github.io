@@ -10,3 +10,11 @@ __pycache__/
 *.png
 *.jpg
 *.mp4
+
+# --- private: never publish (letters, evaluations, transcripts, references) ---
+/teaching/
+/cv/Jiashu_Han_CV_with_references.pdf
+/other stuff/
+
+# --- allow site images (*.jpg is ignored above) ---
+!/assets/img/*
